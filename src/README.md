@@ -50,7 +50,7 @@ weights file (model_name_weights.hdf5).
 ### Generate texts
 
 ```
-python3.7 generate.py --config coexistence_config.json --vocab coexistence_vocab.json --model coexistence_weights.hdf5 --n 5 --temperature 0.5
+python3.7 generate.py --config coexistence_config.json --vocab coexistence_vocab.json --model coexistence_weights.hdf5 --n 5 --temperature 1.0
 ```
 
 ## Built With
